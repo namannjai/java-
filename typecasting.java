@@ -1,4 +1,4 @@
-class Tester {
+public class typecasting{
 	
 	public static void main(String srgs[]) {
 		int variableOne = 10;
