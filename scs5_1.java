@@ -22,7 +22,7 @@ public class scs5_1{
                                     eligibleLoanAmount =500000;
                                     eligibleEmis = 36;
                                     System.out.println("eligible loan amount : "+eligibleLoanAmount + "\neligible emis : "+eligibleEmis);
-                            }
+                            }else{System.out.println("Loan not eligible");}
                         }
                     }else if(loanType.equalsIgnoreCase("house")){
                      if(salary>50000){
@@ -30,7 +30,7 @@ public class scs5_1{
                                     eligibleLoanAmount =600000;
                                     eligibleEmis = 60;
                                     System.out.println("eligible loan amount : "+eligibleLoanAmount + "\neligible emis : "+eligibleEmis);
-                            }
+                            }else{System.out.println("Loan not eligible");}
                         }    
                     }else if (loanType.equalsIgnoreCase("business")){
                     if(salary>75000){
@@ -38,7 +38,7 @@ public class scs5_1{
                                     eligibleLoanAmount =750000;
                                     eligibleEmis = 84;
                                     System.out.println("eligible loan amount : "+eligibleLoanAmount + "\neligible emis : "+eligibleEmis);
-                            }
+                            }else{System.out.println("Loan not eligible");}
                         }    
                     }
 
