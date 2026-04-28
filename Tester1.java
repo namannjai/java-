@@ -8,7 +8,7 @@ public class Tester1 {
 	}
 
 	public static void main(String args[]) {
-		Tester tester = new Tester();
+		Tester1 tester = new Tester1();
 		if (tester.checkTemp(110)) {
 			System.out.println("Data is valid");
 		} else {
